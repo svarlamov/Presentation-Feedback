@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "presentation_feedback.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in presentation_feedback.scss */
+.presentation_feedback {
+  @include addons;
+  @include presentation_feedback;
+}
